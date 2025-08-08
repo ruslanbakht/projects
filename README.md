@@ -3,22 +3,6 @@
 :round_pushpin: Москва
 ## Data Analyst
 
-<br/><br/>
-<div id="badges">
-  <a href="https://www.linkedin.com/in/maria-luchkova-375ba9269/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://drive.google.com/file/d/1YXkhyRmSoypKul6syGy-ZKGEO8GhlwSJ/view?usp=sharing">
-    <img src="https://img.shields.io/badge/CV-red?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"/>
-  </a>
-  <a href="https://t.me/swaymedolce">
-    <img src="https://img.shields.io/badge/Tg-white?style=for-the-badge&logo=telegram&logoColor=blue" alt="CV"/>
-  </a>
-  <a href="https://www.kaggle.com/marialuchkova">
-    <img src="https://img.shields.io/badge/Kaggle-blue?style=for-the-badge&logo=kaggle&logoColor=white" alt="CV"/>
-  </a>
-</div>
-
 ###  Инструменты:
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
