@@ -1,8 +1,8 @@
 # Руслан Бахтигареев
 :briefcase: Аналитик данных 
 :round_pushpin: Москва
-## Middle Business Analyst
-Познакомилась с Data в обработке сигналов: работая в лабораториях с ЭКГ и МРТ, поняла, что аналитика – моя сфера.
+## Data Analyst
+
 <br/><br/>
 <div id="badges">
   <a href="https://www.linkedin.com/in/maria-luchkova-375ba9269/">
