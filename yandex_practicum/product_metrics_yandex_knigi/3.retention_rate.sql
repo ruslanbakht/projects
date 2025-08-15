@@ -18,3 +18,16 @@ SELECT day_since_install,
 FROM daily_retention
 GROUP BY 1,2
 ORDER BY 1
+
+Результат
+day_since_install	retained_users	retention_rate
+0	4259	1
+1	2698	0.63
+2	2550	0.6
+3	2421	0.57
+4	2231	0.52
+5	1994	0.47
+6	2129	0.5
+7	2287	0.54
+8	2274	0.53
+9	2207	0.52
