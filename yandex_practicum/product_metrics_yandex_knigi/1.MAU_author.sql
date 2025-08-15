@@ -8,6 +8,7 @@ WHERE EXTRACT(MONTH FROM msk_business_dt_str)  = 11
 GROUP BY main_author_name
 ORDER BY mau DESC
 LIMIT 3;
+
 Результат
 main_author_name	mau
 Андрей Усачев	7107
