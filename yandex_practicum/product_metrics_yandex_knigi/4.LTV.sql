@@ -22,3 +22,8 @@ SELECT usage_geo_id_name AS city,
     USING (usage_geo_id)
     INNER JOIN purchases_per_city AS p ON b.usage_geo_id_name = p.city
     GROUP BY 1,purchases
+
+Результат
+city	total_users	ltv
+Москва	16808	764.55
+Санкт-Петербург	12559	731.82
