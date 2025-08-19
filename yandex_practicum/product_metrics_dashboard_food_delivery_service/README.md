@@ -20,6 +20,7 @@
 - Таблица partners — справочник партнёрских сетей и их ресторанов.
 - Таблица dishes — справочник блюд.
 - Таблица cities — справочник городов.
+- [Подробное описание данных](https://github.com/ruslanbakht/projects/blob/main/yandex_practicum/product_metrics_dashboard_food_delivery_service/0.%20%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
 ## 3. Результаты анализа ключевых метрик:
 #### 1. DAU (активные пользователи за день)
