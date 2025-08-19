@@ -1,0 +1,33 @@
+-- Рассчитываем новых пользователей по дате первого посещения продукта
+WITH new_users AS
+  (SELECT DISTINCT first_date,
+                   user_id
+   FROM rest_analytics.analytics_events AS events
+   JOIN rest_analytics.cities cities ON events.city_id = cities.city_id
+   WHERE first_date BETWEEN '2021-05-01' AND '2021-06-24'
+     AND city_name = 'Саранск'),
+-- Рассчитываем активных пользователей по дате события
+active_users AS
+  (SELECT DISTINCT log_date,
+                   user_id
+   FROM rest_analytics.analytics_events AS events
+   JOIN rest_analytics.cities cities ON events.city_id = cities.city_id
+   WHERE log_date BETWEEN '2021-05-01' AND '2021-06-30'
+     AND city_name = 'Саранск'),
+-- Соединяем таблицы с новыми и активными пользователями
+daily_retention AS
+  (SELECT n.user_id,
+          first_date,
+          log_date::date - first_date::date AS day_since_install
+   FROM new_users AS n
+   JOIN active_users AS a ON n.user_id = a.user_id
+   AND log_date >= first_date)
+SELECT DISTINCT CAST(DATE_TRUNC('month', first_date) AS date) AS "Месяц",
+                day_since_install,
+                COUNT(DISTINCT user_id) AS retained_users,
+                ROUND((1.0 * COUNT(DISTINCT user_id) / MAX(COUNT(DISTINCT user_id)) OVER (PARTITION BY CAST(DATE_TRUNC('month', first_date) AS date)
+ORDER BY day_since_install))::numeric, 2) AS retention_rate
+FROM daily_retention
+WHERE day_since_install < 8
+GROUP BY "Месяц", day_since_install
+ORDER BY "Месяц", day_since_install; 
