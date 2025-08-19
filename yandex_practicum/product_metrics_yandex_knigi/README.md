@@ -17,7 +17,6 @@
 - Таблица bookmate.content содержит данные о контенте и состоит из следующих полей
 - Таблица bookmate.author содержит данные об авторах контента и состоит из следующих полей
 - Таблица bookmate.geo содержит данные о местоположении и состоит из следующих полей
-- [Проверка гипотезы о различии пользователей Яндекс Книги из Москвы и Санкт-Петербурга](https://github.com/ruslanbakht/projects/tree/main/yandex_practicum/hypothesis_testing_yandex_knigi)
-- [Проверка гипотезы о различии пользователей Яндекс Книги из Москвы и Санкт-Петербурга](https://github.com/ruslanbakht/projects/blob/main/yandex_practicum/product_metrics_yandex_knigi/0.%20%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+- [Подробное описание данных](https://github.com/ruslanbakht/projects/blob/main/yandex_practicum/product_metrics_yandex_knigi/0.%20%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
   
 
