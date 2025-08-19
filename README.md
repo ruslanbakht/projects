@@ -16,7 +16,7 @@
 ###  Проекты:
 | Название | Инструменты |
 | :--------: | :-------: |
-|[Исследование рынка общественного питания в Москве](https://github.com/ruslanbakht/projects/tree/main/yandex_practicum/catering_moscow) |<img src="https://img.shields.io/badge/Pandas-black?style=flat-square&logo=pandas&logoColor=orange"/><img src="https://img.shields.io/badge/MatPlotlib-black?style=flat-square"/>||
+|[Исследование рынка общественного питания в Москве](https://github.com/ruslanbakht/projects/tree/main/yandex_practicum/catering_moscow) |<img src"=https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/><img src="https://img.shields.io/badge/MatPlotlib-black?style=flat-square"/>||
 
 
 
