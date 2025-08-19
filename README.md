@@ -12,11 +12,11 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
-<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+
 ###  Проекты:
 | Название | Инструменты |
 | :--------: | :-------: |
-|[Исследование рынка общественного питания в Москве](https://github.com/ruslanbakht/projects/tree/main/yandex_practicum/catering_moscow) |<div> img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;<div>/>||
+|[Исследование рынка общественного питания в Москве](https://github.com/ruslanbakht/projects/tree/main/yandex_practicum/catering_moscow) | |
 
 
 
